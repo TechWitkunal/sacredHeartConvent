@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url(/Images/wooden\ piece.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.logo {
+    /* border-radius: 73px; */
+    margin-left: 73px;
+    width: 121px;
+    margin-right: 15px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.font_1 {
+    font-weight: 900;
+    font-style: oblique;
+    color: cornsilk;
+    font-family: monospace;
+}
+
+.school_name {
+    font-size: 29px;
+}
+
+.like {
+    position: absolute;
+    left: 1142px;
+    top: 54px;
+    /* font-family: monospace; */
+    font-size: 16px;
+}
+
+.facebook_icon {
+    width: 27px;
+    position: absolute;
+    top: -6px;
+    left: 75px;
+}
+
+._aoc {
+    position: absolute;
+    top: 95px;
+    left: 901px;
+    font-size: 13.5px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+header {
+    background-color: rgb(16 116 155);
+    width: 93vw;
+    margin: auto;
+    margin-top: 39px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 5vw;
+    padding: 10px 20px;
+}
+
+/* header ul li:first-child {
+    margin-left: 121px;
+} */
+
+/* header ul li {
+    margin-left: 50px;
+    margin-top: 10px;
+} */
+
+header ul li a:hover, ul li span:hover {
+    border-bottom: 3.5px solid cornsilk;
+}
+
+header ul .active {
+    background-color: #94d3ff85;
+    width: 91px;
+    position: relative;
+    height: 39px;
+    top: -9px;
+    text-align: center;
+    padding-top: 9px;
+    font-weight: 900;
+}
+
+header ul li a,
+header ul li {
+    color: white;
+    font-size: 17px;
+}
+
+.extra_info {
+    position: absolute;
+    background-color: deepskyblue;
+    width: 288px;
+    height: 94px;
+    top: 211px;
+    left: 585px;
+    text-align: center;
+    padding-top: 2%;
+    color: white;
+    display: none;
+}
+
+.main_img {
+    width: 93vw;
+    margin-left: 38.1px;
+    margin-top: 5px;
+    height: 60vh;
+}
+
+.main_div {
+    width: 94%;
+    height: 1900px;
+    background-color: antiquewhite;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.sub_div1 {
+    width: 28%;
+    /* background-color: aquamarine; */
+    position: absolute;
+    height: 348px;
+}
+
+.sub_div1 h4 {
+    margin-left: 120px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.sub_div1 .co {
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 34px;
+    background-image: linear-gradient(to bottom, #dbc8aa, #6e6353);
+    border: 0.5px solid black;
+    outline: none;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.sub_div1 .co:hover {
+    transform: scale(1.1);
+}
+
+.sub_div1 .co_a {
+    width: 188px;
+    height: 38px;
+    margin: auto;
+    margin-top: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: deepskyblue;
+    transition: all 0.3s ease-in-out;
+}
+
+.sub_div1 .co_a:hover {
+    transform: scale(1.1);
+}
+
+.border_t_b {
+    border-top: 1.9px solid black;
+    border-bottom: 1.9px solid black;
+    width: 75%;
+    margin-left: 39px;
+    padding-bottom: 12px;
+}
+
+.sub_div2 {
+    width: 70%;
+    height: auto;
+    /* background-color: aliceblue; */
+    margin-left: 355px;
+}
+
+.sub_div2 .wl {
+    margin-left: 42px;
+    /* margin-top: 0px; */
+    padding-top: 15px;
+    padding-bottom: 21px;
+    font-weight: 900;
+    font-family: cursive;
+}
+
+.sds {
+    margin-left: 19px;
+    margin-top: 4px;
+    font-weight: 800;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.ui {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.b {
+    font-weight: 700;
+}
+
+.sub_div2 p {
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.principal_disk {
+    /* background-color: antiquewhite; */
+    width: 125%;
+    /* border: 2px solid; */
+    margin-left: -341px;
+    height: 416px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.principal_disk .form {
+    margin-top: 10px;
+    font-size: 27px;
+    margin-bottom: -20px;
+    /* position: absolute; */
+    margin-left: 1px;
+    font-family: cursive;
+}
+
+.principal_disk .row img {
+    width: 433px;
+    height: 345px;
+    margin-right: 25px;
+    margin-top: 49px;
+}
+
+.principal_disk p {
+    font-size: 18px;
+}
+
+.image_section {
+    /* border: 2px solid ; */
+    margin-left: -341px;
+    height: 534px;
+    margin-top: 103px;
+}
+
+.mi {
+    width: 679px;
+    height: 530px;
+}
+
+.image_section .sub_images .sc_img {
+    width: 240px;
+    height: 106px;
+    margin-left: 83px;
+    /* border-bottom-left-radius: 30px; */
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.image_section h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 23px;
+    font-family: cursive;
+}
+
+.image_section .sub_images .sc_img:first-child {
+    margin-top: -8px;
+}
+
+.visitor {
+    /* border: 2px solid; */
+    margin-top: 177px;
+    margin-left: -330px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.visitor .row p:first-child {
+    margin-left: 10px;
+}
+
+.visitor .row p {
+    background-color: black;
+    color: wheat;
+    width: 17px;
+    height: 28px;
+    /* border: 2px solid white; */
+    text-align: center;
+    margin-right: 1px;
+}
+
+footer {
+    background-color: #785629;
+    width: 94%;
+    margin: auto;
+    height: 79px;
+    color: wheat;
+    text-align: center;
+    line-height: 27px;
+    cursor: context-menu;
+    margin-bottom: 260px;
+}
+
+footer .de_name a {
+    /* color: rgb(0, 64, 85); */
+    color: rgb(0, 255, 255);
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.position_1 {
+    left: 347px;
+    display: block;
+}
+
+.position_2 {
+    left: 585px;
+    display: block;
+}
+
+/* ================Contact form ========================= */
+
+form {
+    width: 801px;
+    height: 500px;
+    background-color: aliceblue;
+    margin: auto;
+    text-align: center;
+}
+
+.up_move {
+    position: fixed;
+    bottom: 61px;
+    right: -379px;
+    width: 508px;
+}
+
+.up_move img {
+    width: 30px;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="icon" href="/Images/Sacred Heart logo.png">
+    <link rel="stylesheet" href="/Scared Heart/Scared Heart.css">
+    <title>Contact Form - Sacred Heart Convent</title>
+</head>
+
+<body>
+
+    <style>
+        .main_div {
+            height: 1095px;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+
+        .post_man {
+            width: 321px;
+            height: 367px;
+        }
+
+        .address {
+            margin-bottom: 20px;
+            font-size: 33px;
+            font-family: fantasy;
+            letter-spacing: 2px;
+            font-weight: 100;
+            text-decoration: underline;
+        }
+
+        .lo {
+            margin-left: 39px;
+            /* background-color: aliceblue; */
+            width: 823px;
+            line-height: 40px;
+        }
+
+        .name {
+            font-size: 32px;
+            font-family: monospace;
+            letter-spacing: -1.5px;
+        }
+
+        .location,
+        .number,
+        .email,
+        .email2,
+        .row label {
+            margin-top: 19px;
+            font-size: 17px;
+            font-family: monospace;
+        }
+
+        .email,
+        #Location,
+        #time {
+            margin-left: 6px;
+        }
+
+        .email2 {
+            margin-left: 82px;
+            margin-top: -14px;
+        }
+
+        #time {
+            margin-top: 20px;
+        }
+
+        .last_line {
+            margin-top: 622px;
+            font-size: 21px;
+            text-align: center;
+        }
+
+        .map {
+            position: absolute;
+            top: 1169px;
+            width: 721px;
+            left: 297px;
+        }
+    </style>
+
+
+
+    <div>
+        <a href="" style="display: flex; align-items: center;">
+            <img src="/Images/Sacred Heart logo.png" alt="" class="logo">
+            <h1 class="school_name font_1">Sacred Heart Convent Higher Secondary School, Mathura</h1>
+        </a>
+        <p class="like font_1">Like Us:
+            <a href="https://facebook.com/sacredheartmathura" target="_blank">
+                <img class="facebook_icon" src="/Images/facebook icon.jpeg" alt="">
+            </a>
+        </p>
+        <p class="font_1 _aoc">Love all, Serve all</p>
+    </div>
+
+    <header>
+        <ul>
+            <li><a href="/Scared Heart/Scared Heart.html" target="_blank">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/Scared%20Heart/Scared%20Heart.html#aboutUs" target="_blank">About us</a></li>
+            <li><a href="">Academic</a></li>
+            <li onclick="Admissions()"><span>Admissions</span></li>
+            <li><a href="http://127.0.0.1:5500/Scared%20Heart/Scared%20Heart.html#gallery" target="_blank">Gallery</a></li>
+            <li onclick="resultS()"><span>Results Section</span></li>
+            <li><a href="">Covid-19</a></li>
+            <li class="active"><a href="/Scared Heart/ContactSacredHeart.html" target="_blank">Contact us</a></li>
+        </ul>
+
+        <div class="extra_info">
+            <h4>Examination are going on</h4>
+        </div>
+    </header>
+
+    <img src="/Images/Sacred heart school.jpg" alt="" class="main_img">
+
+    <div class="main_div">
+        <h3 class="address">Address :</h3>
+        <div class="row">
+            <img src="/Images/post man.jpg" alt="" class="post_man">
+            <div class="column lo">
+                <p class="name"><span class="b">Sacred Heart Convent Higher Secondary School</span></p>
+                <div class="row">
+                    <label for="Location" class="b">Location : </label>
+                    <p class="location" id="Location">Moti Kunj, Mathura(U.P.) 281002 - India</p>
+                </div>
+                <p class="number"><span class="b">Phone No. </span><span class="b">-</span> +91941040071<span>,</span>
+                    +91(0)-565-2401595</p>
+                <div class="row">
+                    <label for="em" class="b">E-mail : </label>
+                    <p class="email" id="em">shm@sacredheartmathura.com</p>
+                </div>
+                <p class="email2">sacred_mathura@yohoo.com</p>
+                <div class="row" style="display: flex; align-items: center;">
+                    <label for="time" class="b">SCHOOL OFFICE HOURS -</label>
+                    <p id="time">8 A.M. to 11 A.M.</p>
+                </div>
+                <div class="row" style="display: flex; align-items: center;">
+                    <label for="time" class="b">SCHOOL OFFICE DAYS -</label>
+                    <p id="time">A.M.[Monday to Friday]</p>
+                </div>
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.000219121457!2d77.67571251467183!3d27.469252542522593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39737137eb8ef7ef%3A0xae9df37bc8bc0387!2sSacred%20Heart%20Convent%20Higher%20Secondary%20School!5e0!3m2!1sen!2sin!4v1665056510532!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <h4 class="last_line">No school business will be transacted on holidays.</h4>
+    </div>
+    <footer>
+        <p class="r">c 2012 Sacred Heart Convent Higher Secondary School. All Rights Reserved</p>
+        <p>Classes - L.K.G to 12th std.</p>
+        <p>Developer - <span class="de_name"><a href="mailto:kunalagrawal1818@gmail.com" > Kunal Agrawal </a> (Std. 8th Students | Session: 2022-2023)</span></p>
+    </footer>
+
+    <script src="/Scared Heart/Sacred Heart.js"></script>
+
+</body>
+
+</html>
